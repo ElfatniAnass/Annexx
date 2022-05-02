@@ -1,0 +1,54 @@
+[
+  {
+    "id": "1",
+    "city": "toulouse",
+    "adresse": "2 Avenue des Crêtes",
+    "zipcode": "31520",
+    "area": "Sud",
+    "commun": "Ramonville St Agne",
+    "phone": "05 62 19 19 79",
+    "schedule": {
+      "workingday": "Lun-Ven de 9h-12:30 | 13h:15-17h30",
+      "weekend": "Samedi de 9h | 13h"
+    }
+  },
+  {
+    "id": "2",
+    "city": "toulouse",
+    "adresse": "243 Route d’Albi",
+    "zipcode": "31200",
+    "area": "nord-Est",
+    "commun": "albi",
+    "phone": "05 61 11 03 63",
+    "schedule": {
+      "workingday": "Lun-Ven de 9h-12:30 | 13h:15-17h30",
+      "weekend": "Samedi de 9h | 13h"
+    }
+  },
+  {
+    "id": "3",
+    "city": "toulouse",
+    "adresse": "70 Rue Jacques Babinet",
+    "zipcode": "31200",
+    "area": "université",
+    "commun": " ",
+    "phone": "05 34 60 31 10",
+    "schedule": {
+      "workingday": "Lun-Ven de 9h-12:30 | 13h:15-17h30",
+      "weekend": "Samedi de 9h | 13h"
+    }
+  },
+  {
+    "id": "4",
+    "city": "toulouse",
+    "adresse": "4 Rue de Coulet",
+    "zipcode": "31300",
+    "area": "ouest",
+    "commun": " ",
+    "phone": "05 34 55 19 18",
+    "schedule": {
+      "workingday": "Lun-Ven de 9h-12:30 | 13h:15-17h30",
+      "weekend": "Samedi de 9h | 13h"
+    }
+  }
+]
