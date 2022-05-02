@@ -2,8 +2,8 @@
 var arrayData = [];
 $(document).ready(function () {
     $.ajax({
-        url: "./data/data.json", success: function (result) {
-            $.each(result, function (index, item) {
+         url: "./data/data.json", success: function (result) {
+            $.each(JSON.parse(result), function (index, item) {
                 arrayData.push(item);
                 $(".fetch-content").append(
                     "<div class='col-lg-3 col-md-4 col-sm-6 col-12 text-center mrb-2'>" +
