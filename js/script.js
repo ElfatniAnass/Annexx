@@ -2,7 +2,7 @@
 var arrayData = [];
 $(document).ready(function () {
     $.ajax({
-        url: "/data/data.json", success: function (result) {
+        url: "./data/data.json", success: function (result) {
             $.each(result, function (index, item) {
                 arrayData.push(item);
                 $(".fetch-content").append(
