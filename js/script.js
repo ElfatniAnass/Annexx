@@ -2,7 +2,7 @@
 var arrayData = [];
 $(document).ready(function () {
     $.ajax({
-        url: "./data/data.json", success: function (result) {
+        url: "../data/data.json", success: function (result) {
             $.each(JSON.parse(result), function (index, item) {
                 arrayData.push(item);
                 $(".fetch-content").append(
@@ -64,7 +64,7 @@ $('#btnsearch').click(function () {
         });
     } else {
         $(".fetch-content").append(
-            "<div class='col-12 text-center mrb-2'> <h1>Aucune résultat trouvé</h1> </div>"
+            "<div class='col-12 text-center mrb-2'> <h1>Aucun résultat trouvé</h1> </div>"
         );
     }
 });
