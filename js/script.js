@@ -2,7 +2,8 @@
 var arrayData = [];
 $(document).ready(function () {
     $.ajax({
-         url: "./data/data.json", success: function (result) {
+         url: "https://github.com/ElfatniAnass/Annexx/blob/main/data/data.json", success: function (result) {
+            console.log(result);
             $.each(JSON.parse(result), function (index, item) {
                 arrayData.push(item);
                 $(".fetch-content").append(
